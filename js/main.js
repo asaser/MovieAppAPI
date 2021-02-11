@@ -15,14 +15,13 @@ $(document).ready(() => {
 
 //create my variables
 const APIkey = "869e4dd6";
-const url = 'http://www.omdbapi.com?';
 
 // body function with all values
 function getContent(searchMovie) {
 
 
     // Make a request for a user with a given ID by search strings
-    axios.get(url + 's=' + searchMovie + "&apikey=" + APIkey)
+    axios.get('https://www.omdbapi.com?s=' + searchMovie + "&apikey=" + APIkey)
 
         .then(function (response) {
             // handle success

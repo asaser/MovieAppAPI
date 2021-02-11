@@ -1,0 +1,30 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(132, 161, 220);
+}
+
+#firstSection .jumbotron {
+    background-color: rgb(85, 141, 231);
+}
+
+#secondSection .jumbotron {
+    background-color: rgb(85, 141, 231);
+}
+
+.ulItem {
+    background-color:rgb(85, 141, 231);
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.liGroupItem {
+    background-color: rgb(85, 141, 231);
+    padding: 5px;
+}
+
+
+#movies img {
+    width: 80%;
+    height: 80%;
+}

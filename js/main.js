@@ -15,7 +15,7 @@ $(document).ready(() => {
 
 //create my variables
 const APIkey = "869e4dd6";
-const url = 'http://www.omdbapi.com?';
+const url = 'https://www.omdbapi.com?';
 
 // body function with all values
 function getContent(searchMovie) {

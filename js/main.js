@@ -1,3 +1,4 @@
+
 // all script run in stack
 $(document).ready(() => {
     $("#findMovie").submit((e) => {
@@ -14,11 +15,10 @@ $(document).ready(() => {
 });
 
 //create my variables
-const APIkey = "869e4dd6";
+const APIkey = "YOUR API";
 
 // body function with all values
 function getContent(searchMovie) {
-
 
     // Make a request for a user with a given ID by search strings
     axios.get('https://www.omdbapi.com?s=' + searchMovie + "&apikey=" + APIkey)

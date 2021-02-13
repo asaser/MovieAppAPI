@@ -15,7 +15,7 @@ $(document).ready(() => {
 });
 
 //create my variables
-const APIkey = "YOUR API";
+const APIkey = "869e4dd6";
 
 // body function with all values
 function getContent(searchMovie) {

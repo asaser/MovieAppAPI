@@ -1,4 +1,3 @@
-
 // all script run in stack
 $(document).ready(() => {
     $("#findMovie").submit((e) => {
